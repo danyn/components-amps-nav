@@ -8,6 +8,8 @@
 //             .ampstart-nav-dropdown,
 //             .ampstart-dropdown-items,
 //             .ampstart-dropdown-item,
+//             .ampstart-sidebar,
+//             .ampstart-sidebar-header
 
 // ];
 
@@ -151,4 +153,23 @@
 
 // .ampstart-dropdown-item
 
+// .ampstart-sidebar
 
+.ampstart-sidebar {
+    background-color: #fff;
+    color: #000;
+    min-width: 300px;
+    width: 300px
+}
+
+.ampstart-sidebar .ampstart-icon {
+    fill: #003f93
+}
+
+
+// ampstart-sidebar-header
+
+.ampstart-sidebar-header {
+    line-height: 3.5rem;
+    min-height: 3.5rem
+}
