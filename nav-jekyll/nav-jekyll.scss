@@ -105,4 +105,33 @@ classlist: [.ampstart-headerbar, .ampstart-navbar-trigger, .ampstart-headerbar-n
     margin: 0 0 2.5rem
 }
 
+// .ampstart-nav-dropdown
+
+.ampstart-sidebar .ampstart-nav-dropdown {
+    margin: 0
+}
+
+.ampstart-nav-dropdown {
+    min-width: 200px
+}
+
+
+.ampstart-nav-dropdown amp-accordion header {
+    background-color: #fff;
+    border: none
+}
+
+.ampstart-nav-dropdown amp-accordion ul {
+    background-color: #fff
+}
+
+.ampstart-nav-dropdown .ampstart-dropdown-item,
+.ampstart-nav-dropdown .ampstart-dropdown>section>header {
+    background-color: #fff;
+    color: #000
+}
+
+.ampstart-nav-dropdown .ampstart-dropdown-item {
+    color: #003f93
+}
 
