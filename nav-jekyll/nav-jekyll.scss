@@ -83,5 +83,26 @@ classlist: [.ampstart-headerbar, .ampstart-navbar-trigger, .ampstart-headerbar-n
     color: inherit
 }
 
+// .ampstart-nav-item 
+
+.ampstart-headerbar-nav .ampstart-nav-item {
+    padding: 0 1.5rem;
+    background: transparent;
+    opacity: .8
+}
+
+.ampstart-nav-item:active,
+.ampstart-nav-item:focus,
+.ampstart-nav-item:hover {
+    opacity: 1
+}
+
+.ampstart-sidebar .ampstart-dropdown-item,
+.ampstart-sidebar .ampstart-dropdown header,
+.ampstart-sidebar .ampstart-faq-item,
+.ampstart-sidebar .ampstart-nav-item,
+.ampstart-sidebar .ampstart-social-follow {
+    margin: 0 0 2.5rem
+}
 
 
