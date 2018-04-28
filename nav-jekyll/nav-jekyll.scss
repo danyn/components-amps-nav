@@ -10,7 +10,8 @@
 //             .ampstart-dropdown-item,
 //             .ampstart-sidebar,
 //             .ampstart-sidebar-header,
-//             .ampstart-sidebar-nav
+//             .ampstart-sidebar-nav,
+//             .ampstart-label 
 
 // ];
 
@@ -176,4 +177,27 @@
 }
 
 // ampstart-sidebar-nav
+
+//  ampstart-label
+
+// seems scoped for the footer
+// .ampstart-footer-nav .ampstart-label {
+//     font-size: .875rem;
+//     letter-spacing: normal
+// }
+
+.ampstart-byline,
+.ampstart-caption,
+.ampstart-hint,
+.ampstart-label {
+    font-size: .875rem;
+    color: #4f4f4f;
+    line-height: 1.125rem;
+    letter-spacing: .06rem
+}
+
+.ampstart-label {
+    text-transform: uppercase
+}
+
 
