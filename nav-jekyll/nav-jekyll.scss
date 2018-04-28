@@ -1,4 +1,12 @@
-classlist: [.ampstart-headerbar, .ampstart-navbar-trigger, .ampstart-headerbar-nav,   ];
+// classlist: [ 
+//             .ampstart-headerbar,
+//             .ampstart-navbar-trigger,
+//             .ampstart-headerbar-nav,
+//             .ampstart-nav,
+//             .ampstart-nav-item,
+//             .ampstart-dropdown,
+//             .ampstart-nav-dropdown
+// ];
 
 // .ampstart-headerbar 
 
@@ -83,7 +91,7 @@ classlist: [.ampstart-headerbar, .ampstart-navbar-trigger, .ampstart-headerbar-n
     color: inherit
 }
 
-// .ampstart-nav-item 
+// .ampstart-nav-item // .ampstart-dropdown 
 
 .ampstart-headerbar-nav .ampstart-nav-item {
     padding: 0 1.5rem;
